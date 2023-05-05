@@ -6,23 +6,20 @@
 body {
   background: linear-gradient(to bottom, #259cd8, #cb2abe);
   font-family: 'Helvetica Neue', sans-serif;
-  margin: 0;
-
-  /* background-image: url('https://uploads-ssl.webflow.com/5e25202…/5e7c21a…_Gradient-home.png'), linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)); */
-  /* background-position: -210px 0, 0 0;
-  background-size: 140%, auto;
-  background-attachment: scroll, scroll;
-  border-bottom: 1px #000; */
+  padding-top: 100px;
+  position: static;
+  z-index: 0;
 }
 .navbar {
     /* background-color: #fff; */
     box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+    background-color: #333;
     padding: 15px 0;
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
-    z-index: 999;
+    z-index: 1;
   }
   
   .navbar-container {
@@ -189,7 +186,7 @@ body {
     }
   }
   
-.logo{
+.logo, .footer-logo{
     height: 40px;
     margin: none;
     width: fit-content;
