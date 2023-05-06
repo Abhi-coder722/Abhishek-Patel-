@@ -24,6 +24,32 @@
     margin-right: 5px;
   }
 
+
+  .thinking{
+    margin-left: 150px;
+    font-family: 'Helvetica Neue', sans-serif;
+    width: 500px;
+    font-family: 'Genos', sans-serif;
+    display: inline-block; /* add this line to display h1 and image side by side */
+}
+
+.animated-thinking{
+    height: 400px; 
+    border-radius: 50px;
+    opacity: 1;
+    margin-top: 0;
+    box-sizing: border-box;
+    display: inline-block; /* add this line to display image side by side with h1 */
+}
+
+
+#about{
+    /* display: flex; */
+    /* left: 500px; */
+}
+
+
+
   /* footer section  */
   footer {
     color: #fff;
@@ -75,5 +101,75 @@
   }
   .footer-social a:hover {
     color: #b3bcc6;
+  }
+  
+
+
+  .lefth {
+    position: fixed;
+    left: 0;
+    top: 30%;
+    transform: translateY(-50%);
+    z-index: 1;
+  }
+  
+  .lefth ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .lefth li {
+    margin-bottom: 10px;
+  }
+  
+  .lefth a {
+    display: block;
+    position: relative;
+    width: 40px;
+    height: 40px;
+    background-color: #333;
+    color: #fffefe;
+    font-size: 20px;
+    font-weight: bolder;
+    text-align: center;
+    line-height: 30px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+  }
+  
+  .lefth a:hover {
+    width: 160px;
+    height: 55px;
+    font-size: 30px;
+  }
+  
+  .lefth a:hover:before {
+    content: attr(data-letter);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 35px;
+    opacity: 0;
+    transition: all 0.5s ease;
+  }
+  
+  .lefth a:hover:after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    width: 100%;
+    height: 1px;
+    background-color: #fff;
+    opacity: 0;
+    transition: all 0.3s ease;
+  }
+  
+  .lefth a:hover:before,
+  .lefth a:hover:after {
+    opacity: 1;
   }
   
