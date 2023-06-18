@@ -3,8 +3,8 @@ import {
     backend,
     creator,
     web,
+    python,
     javascript,
-    typescript,
     html,
     css,
     reactjs,
@@ -73,8 +73,8 @@ import {
       icon: javascript,
     },
     {
-      name: "TypeScript",
-      icon: typescript,
+      name: "Python",
+      icon: python,
     },
     {
       name: "React JS",
