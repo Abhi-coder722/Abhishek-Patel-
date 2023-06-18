@@ -21,15 +21,15 @@ className="bg-black-200 p-10 rounded-3xl xs:w-[320px] w-full"
 <div className="mt-7 flex justify-between items-center gap-1">
 <div className="flex-1 flex flex-col">
 
-<p className="text-white font-medium text-[16px]">  <span className="blue-text-gradient">@  </span>{name}  </p>
-<p className="mt-1 text-seondary text-[12px]">  {designation} of{company} </p>
+{/* <p className="text-white font-medium text-[16px]">  <span className="blue-text-gradient">@  </span>{name}  </p> */}
+{/* <p className="mt-1 text-seondary text-[12px]">  {designation} of{company} </p> */}
 
 </div>
 
 
-<img src={image}
+{/* <img src={image}
 alt="feeback by the person"
-className="w-10 h-10 rounded-full object-cover"/>
+className="w-10 h-10 rounded-full object-cover"/> */}
 
 </div>
 </div>
@@ -53,7 +53,7 @@ const Feedbacks = () => {
 
 <div className={`${styles.paddingX} -mt-20 pb-14 flex flex-wrap gap-7`}>
 {testimonials.map((testimonial, index)=>(
-  <FeedbackCard key={testimonial.name}
+  <FeedbackCard key={testimonial.index}
   index={index}
   {...testimonial} />
 ))}

@@ -181,32 +181,33 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+      "Passionate About AI and Coding: I have a deep enthusiasm for AI and coding, constantly seeking to expand my knowledge and skills to stay at the forefront of innovation.",
+    // name: "Sara Lee",
+    // designation: "CFO",
+    // company: "Acme Co",
+    // image: "https://randomuser.me/api/portraits/women/4.jpg",
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
+      "Reliability and Dedication: I am committed to delivering high-quality work, meeting deadlines, and consistently exceeding expectations.",
+    // name: "Chris Brown",
+    // designation: "COO",
+    // company: "DEF Corp",
+    // image: "https://randomuser.me/api/portraits/men/5.jpg",
   },
   {
     testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
+ "Friendly and Approachable: As a student, I strive to create a welcoming and supportive environment for my peers and teammates.",
+  //   name: "Lisa Wang",
+  //   designation: "CTO",
+  //   company: "456 Enterprises",
+  //   image: "https://randomuser.me/api/portraits/women/6.jpg",
   },
 ];
 
 const projects = [
   {
+    index:1,
     name: "Personal Portfolio",
     description:
       "Built a fully functional personal portfolio website from scratch while learning, utilizing resources like Stack Overflow to showcase my skills in ReactJS, Tailwind CSS, Three.js, EmailJS, and Framer Motion. ",
@@ -228,6 +229,7 @@ const projects = [
     source_code_link: "https://github.com/Abhi-coder722/Abhishek-Patel-",
   },
     {
+      index:2,
     name: "Motion Detector",
     description:
       "Application used to detect and respond to movement or motion in its surroundings, can be used for various purposes : security systems, automation, energy management, and interactive experiences by triggering alerts based on detected motion.",
@@ -249,6 +251,7 @@ const projects = [
     source_code_link: "https://github.com/Abhi-coder722/Motion-detector-application",
   },
   {
+    index:3,
     name: "Feel Good Android app",
     description:
       "Created a self-made, uplifting Android application that highlights my proficiency in Kivy language and Python programming. Implemented various impressive Python libraries to create an engaging and soul-enriching user experience.",
@@ -270,6 +273,7 @@ const projects = [
     source_code_link: "https://github.com/Abhi-coder722/Feel-Good-App",
   },
   {
+    index:4,
     name: "todolist",
     description:
       "Created a to-do list app using MongoDB, Node.js, and Express.js. It allows users to efficiently manage their tasks, offering features like task creation, updates, and deletion. With MongoDB for seamless data storage and retrieval, this app simplifies task management.",
@@ -291,6 +295,7 @@ const projects = [
     source_code_link: "https://github.com/Abhi-coder722/to-do-list-DB-v2",
   },
   {
+    index:5,
     name: "Image-Editor",
     description:
       "Self-made image editor using HTML5, CSS, and jQuery. It offers essential editing features such as brightness, saturation, inversion, grayscale, and rotate/flip options. This user-friendly application allows users to effortlessly enhance and transform their images with a simple and intuitive interface.",
@@ -312,6 +317,7 @@ const projects = [
     source_code_link: "https://github.com/Abhi-coder722/Image-Editor",
   },
   {
+    index:6,
     name: "Simon Game",
     description:
       "Experience the excitement of Simon pattern recognition game! Created using jQuery, HTML5, and CSS, this self-made game challenges your memory skills. Repeat the sequence of colors and watch as the difficulty increases. With engaging visuals and addictive gameplay, it's a thrilling experience for players of all ages.",
