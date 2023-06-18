@@ -28,7 +28,14 @@ import {
   github,
   pandas,
   bootstrap,
-  numpy
+  numpy,
+  todolist,
+  image_editor,
+  simongame,
+  population,
+  feelgood,
+  motiondetector,
+  mysite
 } from "../assets";
 
 export const navLinks = [
@@ -150,10 +157,10 @@ const experiences = [
     iconBg: "#383E56",
     date: "October 2022 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Learning different modules such as Linar Algebra, Advanced programming, Analysis and Statistics.",
+      "Participating in coding assignments and finding the most efficient code for the challenges.",
+      "To enhance my communication skills, I have been attending German courses at the B1 level. ",
+      "-'Ich werde nicht der Beste sein, Ich werde besser sein als morgen.'"
     ],
   },
   {
@@ -200,12 +207,75 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Personal Portfolio",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Built a fully functional personal portfolio website from scratch while learning, utilizing resources like Stack Overflow to showcase my skills in ReactJS, Tailwind CSS, Three.js, EmailJS, and Framer Motion. ",
     tags: [
       {
-        name: "react",
+        name: "reactjs",
+        color: "tailwindcss",
+      },
+      {
+        name: "framer-motion",
+        color: "green-text-gradient",
+      },
+      {
+        name: "threejs",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: mysite,
+    source_code_link: "https://github.com/Abhi-coder722/Abhishek-Patel-",
+  },
+    {
+    name: "Motion Detector",
+    description:
+      "Application used to detect and respond to movement or motion in its surroundings, can be used for various purposes : security systems, automation, energy management, and interactive experiences by triggering alerts based on detected motion.",
+    tags: [
+      {
+        name: "Python",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "bokeh",
+        color: "green-text-gradient",
+      },
+      {
+        name: "computervision",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: motiondetector,
+    source_code_link: "https://github.com/Abhi-coder722/Motion-detector-application",
+  },
+  {
+    name: "Feel Good Android app",
+    description:
+      "Created a self-made, uplifting Android application that highlights my proficiency in Kivy language and Python programming. Implemented various impressive Python libraries to create an engaging and soul-enriching user experience.",
+    tags: [
+      {
+        name: "python",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "kvlang",
+        color: "green-text-gradient",
+      },
+      {
+        name: "oops",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: feelgood,
+    source_code_link: "https://github.com/Abhi-coder722/Feel-Good-App",
+  },
+  {
+    name: "todolist",
+    description:
+      "Created a to-do list app using MongoDB, Node.js, and Express.js. It allows users to efficiently manage their tasks, offering features like task creation, updates, and deletion. With MongoDB for seamless data storage and retrieval, this app simplifies task management.",
+    tags: [
+      {
+        name: "nodejs",
         color: "blue-text-gradient",
       },
       {
@@ -213,45 +283,24 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "bootstrap",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: todolist,
+    source_code_link: "https://github.com/Abhi-coder722/to-do-list-DB-v2",
   },
   {
-    name: "Job IT",
+    name: "Image-Editor",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Self-made image editor using HTML5, CSS, and jQuery. It offers essential editing features such as brightness, saturation, inversion, grayscale, and rotate/flip options. This user-friendly application allows users to effortlessly enhance and transform their images with a simple and intuitive interface.",
     tags: [
       {
-        name: "react",
+        name: "jquery",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
-        color: "green-text-gradient",
-      },
-      {
-        name: "scss",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: jobit,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Trip Guide",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
+        name: "html5",
         color: "green-text-gradient",
       },
       {
@@ -259,8 +308,25 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: image_editor,
+    source_code_link: "https://github.com/Abhi-coder722/Image-Editor",
+  },
+  {
+    name: "Simon Game",
+    description:
+      "Experience the excitement of Simon pattern recognition game! Created using jQuery, HTML5, and CSS, this self-made game challenges your memory skills. Repeat the sequence of colors and watch as the difficulty increases. With engaging visuals and addictive gameplay, it's a thrilling experience for players of all ages.",
+    tags: [
+      {
+        name: "vanillajs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "html5",
+        color: "green-text-gradient",
+      }
+    ],
+    image: simongame,
+    source_code_link: "https://github.com/Abhi-coder722/Simon-game",
   },
 ];
 
