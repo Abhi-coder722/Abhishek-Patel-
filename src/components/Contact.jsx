@@ -10,9 +10,6 @@ import { SectionWrapper } from "../hoc"
 import { slideIn } from "../utils/motion"
 
 
-// mZ_Kvs6Hyh5M5nTvz
-// template_otw1m98
-// service_hxb31zo
 const Contact = () => {
 const formRef= useRef();
   const [form,setForm]=useState({
