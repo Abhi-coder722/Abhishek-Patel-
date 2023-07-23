@@ -3,7 +3,7 @@ import backend from "./backend.png";
 import creator from "./creator.png";
 import mobile from "./mobile.png";
 import web from "./web.png";
-
+import tng from "./company/tng.png"
 import menu from "./menu.svg";
 import close from "./close.svg";
 import python from "./tech/python.png";
@@ -84,6 +84,7 @@ export {
   pandas,
   numpy,
   todolist,
+  tng,
 image_editor,
 simongame,
 mysite,
