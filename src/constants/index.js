@@ -44,7 +44,7 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "Software Developer",
     icon: web,
   },
   {
@@ -52,7 +52,7 @@ const services = [
     icon: mobile,
   },
   {
-    title: "Future Full Stack Developer",
+    title: "Team Player",
     icon: backend,
   },
   {
@@ -174,7 +174,7 @@ const experiences = [
     points: [
       "Started my industrial carrer as a Junior Software Developer at the TNG.",
       "Contributing to one of the biggest AI project related to the topic Generative AI.",
-      "Collaborating with my team to build a human replaceable AI assistant which does all the human tasks.",
+      "Collaborating with my team to build an AI assistant which minimizes the work load.",
       "I currently work here, also improving my professional networks."
     ],
   },
