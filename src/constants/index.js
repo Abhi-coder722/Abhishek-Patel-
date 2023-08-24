@@ -52,12 +52,12 @@ const services = [
     icon: mobile,
   },
   {
-    title: "Team Player",
-    icon: backend,
-  },
-  {
     title: "Reliable and Friendly",
     icon: creator,
+  },
+  {
+    title: "Team Player",
+    icon: backend,
   },
 ];
 
@@ -146,7 +146,7 @@ const experiences = [
     iconBg: "#383E56",
     date: "October 2022 - Present",
     points: [
-      "Learning different modules such as Linar Algebra, Advanced programming, Analysis and Statistics.",
+      "Learning different modules such as Linear Algebra, Advanced programming, Analysis and Statistics.",
       "Participating in coding assignments and finding the most efficient code for the challenges.",
       "To enhance my communication skills, I have been attending German courses at the B1 level. ",
       "-'Ich werde nicht der Beste sein, Ich werde besser sein als morgen.'"
