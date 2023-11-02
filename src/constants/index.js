@@ -197,26 +197,26 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "Passionate About AI and Coding: I have a deep enthusiasm for AI and coding, constantly seeking to expand my knowledge and skills to stay at the forefront of innovation.",
-    // name: "Sara Lee",
-    // designation: "CFO",
-    // company: "Acme Co",
+      "Passionate About AI and Coding: Abhishek has a deep enthusiasm for AI and coding, he is constantly seeking to expand his knowledge and skills to stay at the forefront of innovation.",
+    name: "Mathias Burger",
+    designation: "Principal Consultant",
+    company: " TNG Tech GmbH",
     // image: "https://randomuser.me/api/portraits/women/4.jpg",
   },
   {
     testimonial:
-      "Reliability and Dedication: I am committed to delivering high-quality work, meeting deadlines, and consistently exceeding expectations.",
-    // name: "Chris Brown",
-    // designation: "COO",
-    // company: "DEF Corp",
+      "Reliability and Dedication: Abhishek is committed to delivering high-quality work, meeting deadlines, and consistently exceeding expectations.",
+      name: "Mathias Burger",
+      designation: "Principal Consultant",
+      company: " TNG Tech GmbH",
     // image: "https://randomuser.me/api/portraits/men/5.jpg",
   },
   {
     testimonial:
-      "Friendly and Approachable: As a student, I strive to create a welcoming and supportive environment for my peers and teammates.",
-    //   name: "Lisa Wang",
-    //   designation: "CTO",
-    //   company: "456 Enterprises",
+      "Friendly and Approachable: Abhishek strives to create a welcoming and supportive environment for our peers and teammates.",
+      name: "Karthik Bharadwaj",
+      designation: "Software Consultant",
+      company: " TNG Tech GmbH",
     //   image: "https://randomuser.me/api/portraits/women/6.jpg",
   },
 ];
