@@ -37,7 +37,7 @@ import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
-
+import env from './company/env.jpg';
 import todolist from "./todolist.png"
 import image_editor from "./image_editor.png"
 import simongame from "./simongame.png"
@@ -45,7 +45,7 @@ import population from "./population.png"
 import feelgood from "./feelgood.png"
 import motiondetector from "./motiondetector.png"
 import mysite from "./mysite.png"
-
+import thi from './company/thi.avif'
 
 export {
   logo,
@@ -85,10 +85,12 @@ export {
   numpy,
   todolist,
   tng,
+  env,
 image_editor,
 simongame,
 mysite,
 population,
 feelgood,
-motiondetector
+motiondetector,
+thi
 };

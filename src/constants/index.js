@@ -1,4 +1,5 @@
 import {
+  thi,
   mobile,
   backend,
   creator,
@@ -11,7 +12,7 @@ import {
   nodejs,
   mongodb,
   tng,
-  ku,
+  env,
   sist,
   ratisbona,
   threejs,
@@ -140,19 +141,6 @@ const experiences = [
     ],
   },
   {
-    title: "BSc. Data Science",
-    company_name: "Catholic University, Ingolstadt",
-    icon: ku,
-    iconBg: "#383E56",
-    date: "October 2022 - Present",
-    points: [
-      "Learning different modules such as Linear Algebra, Advanced programming, Analysis and Statistics.",
-      "Participating in coding assignments and finding the most efficient code for the challenges.",
-      "To enhance my communication skills, I have been attending German courses at the B1 level. ",
-      "-'Ich werde nicht der Beste sein, Ich werde besser sein als morgen.'"
-    ],
-  },
-  {
     title: "Hackaburg Hackathon 2023",
     company_name: "Ratisbona Coding e.v.",
     icon: ratisbona,
@@ -167,16 +155,42 @@ const experiences = [
   },
   {
     title: "Junior Software Developer | Consultant",
-    company_name: "TNG Technology Consulting GmbH",
+    company_name: "TNG Technology Consulting GmbH, Munich",
     icon: tng,
     iconBg: "#E6DEDD",
-    date: "July 2023 - Present",
+    date: "July 2023 - October 2023",
     points: [
-      "Started my industrial carrer as a Junior Software Developer at the TNG.",
-      "Contributing to one of the biggest AI project related to the topic Generative AI.",
-      "Collaborating with my team to build an AI assistant which minimizes the work load.",
-      "I currently work here, also improving my professional networks."
+      "Frontend Development: I specialized in modern frontend technologies like React, Material-UI, and TypeScript to create responsive and user-friendly interfaces.",
+      "UI Design Excellence: I excelled in UI development, using Storybook for component design and visualization, fostering efficient collaboration.",
+      "Backend Development: I harnessed Python and cutting-edge frameworks, including OPENAI, Geopy, and FastAPI, to build a high-performance and scalable backend.",
+      "CI/CD Pipeline Management: I managed the CI/CD pipeline with GitLab, ensuring seamless code delivery, and focused on thorough project documentation using Jira for future developments.."
+    
     ],
+  },
+  {
+    title: "BSc. Artificial Intelligence",
+    company_name: "Technische Hochschule Ingolstadt, Ingolstadt",
+    icon: thi,
+    iconBg: "#383E56",
+    date: "October 2023 - Present",
+    points: [
+      "Learning different modules such as Programming 1 in Python, Mathematics 1, Probability & Statistics and Computer Science.",
+      "Participating in coding assignments and finding the most efficient code for the challenges.",
+      "To enhance my communication skills, I have been attending German courses at the B1 level. ",
+      "-'Ich werde nicht der Beste sein, Ich werde besser sein als morgen.'"
+    ],
+  },
+  {
+    title: "Working student Software Development",
+    company_name: "Engel & Völkers, Hamburg",
+    icon: env,
+    iconBg: "#E6DEDD",
+    date: "October 2023 - Present",
+    points: [
+      "Working as a werkstudent in Software Development at the E&V.",
+      "Contributing to one of the biggest project named LeadHub which manages the whole customer database.",
+      "Writing E2E tests, and fixing bug tickets.",
+      "I currently work here, also improving my professional networks."],
   },
 ];
 
@@ -199,17 +213,17 @@ const testimonials = [
   },
   {
     testimonial:
- "Friendly and Approachable: As a student, I strive to create a welcoming and supportive environment for my peers and teammates.",
-  //   name: "Lisa Wang",
-  //   designation: "CTO",
-  //   company: "456 Enterprises",
-  //   image: "https://randomuser.me/api/portraits/women/6.jpg",
+      "Friendly and Approachable: As a student, I strive to create a welcoming and supportive environment for my peers and teammates.",
+    //   name: "Lisa Wang",
+    //   designation: "CTO",
+    //   company: "456 Enterprises",
+    //   image: "https://randomuser.me/api/portraits/women/6.jpg",
   },
 ];
 
 const projects = [
   {
-    index:1,
+    index: 1,
     name: "Personal Portfolio",
     description:
       "Built a fully functional personal portfolio website from scratch while learning, utilizing resources like Stack Overflow to showcase my skills in ReactJS, Tailwind CSS, Three.js, EmailJS, and Framer Motion. ",
@@ -230,8 +244,8 @@ const projects = [
     image: mysite,
     source_code_link: "https://github.com/Abhi-coder722/Abhishek-Patel-",
   },
-    {
-      index:2,
+  {
+    index: 2,
     name: "Motion Detector",
     description:
       "Application used to detect and respond to movement or motion in its surroundings, can be used for various purposes : security systems, automation, energy management, and interactive experiences by triggering alerts based on detected motion.",
@@ -253,7 +267,7 @@ const projects = [
     source_code_link: "https://github.com/Abhi-coder722/Motion-detector-application",
   },
   {
-    index:3,
+    index: 3,
     name: "Feel Good Android app",
     description:
       "Created a self-made, uplifting Android application that highlights my proficiency in Kivy language and Python programming. Implemented various impressive Python libraries to create an engaging and soul-enriching user experience.",
@@ -275,7 +289,7 @@ const projects = [
     source_code_link: "https://github.com/Abhi-coder722/Feel-Good-App",
   },
   {
-    index:4,
+    index: 4,
     name: "todolist",
     description:
       "Created a to-do list app using MongoDB, Node.js, and Express.js. It allows users to efficiently manage their tasks, offering features like task creation, updates, and deletion. With MongoDB for seamless data storage and retrieval, this app simplifies task management.",
@@ -297,7 +311,7 @@ const projects = [
     source_code_link: "https://github.com/Abhi-coder722/to-do-list-DB-v2",
   },
   {
-    index:5,
+    index: 5,
     name: "Image-Editor",
     description:
       "Self-made image editor using HTML5, CSS, and jQuery. It offers essential editing features such as brightness, saturation, inversion, grayscale, and rotate/flip options. This user-friendly application allows users to effortlessly enhance and transform their images with a simple and intuitive interface.",
@@ -319,7 +333,7 @@ const projects = [
     source_code_link: "https://github.com/Abhi-coder722/Image-Editor",
   },
   {
-    index:6,
+    index: 6,
     name: "Simon Game",
     description:
       "Experience the excitement of Simon pattern recognition game! Created using jQuery, HTML5, and CSS, this self-made game challenges your memory skills. Repeat the sequence of colors and watch as the difficulty increases. With engaging visuals and addictive gameplay, it's a thrilling experience for players of all ages.",
