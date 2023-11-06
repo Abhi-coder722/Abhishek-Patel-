@@ -52,11 +52,11 @@ const About = () => {
       </motion.div>
 
       <motion.p variants={fadeIn("", "", 0.1, 1)} className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'>
-        I am a technology-driven student and a Junior Software Developer|Consultant with a strong programming
+        I am a technology-driven student and a Working Student in Software Development with a strong programming
         background in Python and TypeScript. Alongside Python, I am also well acquainted
         with TypeScript, JavaScript, HTML5, CSS, C, C++, and Java.
         Working on different projects, I am updated with front-end modules such as
-        MUI,NodeJS and ReactJS in JavaScript and Pandas, openai, CV and Numpy in Python.
+        MUI, bootstrap, tailwindCSS, framer motion and ReactJS in JavaScript and Pandas, openai, CV and Numpy in Python.
         I am also updated with e2e testing using the Playwright framework, storybook and Git.
         I am a quick learner and collaborate closely with people to create efficient,
         scalable and user-friendly solutions that solve real world problems.
