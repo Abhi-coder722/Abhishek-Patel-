@@ -137,7 +137,7 @@ const experiences = [
     points: [
       "Completed the coding tasks efficiently for 100 consecutive days to qualify for the final round.",
       "Faced stiff competition, where I had to complete 3 coding tasks within an hour.",
-      "Utilized my strong time management and coding skills to secure the 2nd prize in the competition."
+      "Utilized my strong time management and coding skills to secure the 2nd prize in the competition among 2100+ students."
     ],
   },
   {
@@ -177,7 +177,7 @@ const experiences = [
       "Learning different modules such as Programming 1 in Python, Mathematics 1, Probability & Statistics and Computer Science.",
       "Participating in coding assignments and finding the most efficient code for the challenges.",
       "To enhance my communication skills, I have been attending German courses at the B1 level. ",
-      "-'Ich werde nicht der Beste sein, Ich werde besser sein als morgen.'"
+      "-'Ich bin nicht der Beste, aber ich bin besser als gestern.'"
     ],
   },
   {
