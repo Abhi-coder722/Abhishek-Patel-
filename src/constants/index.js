@@ -187,10 +187,14 @@ const experiences = [
     iconBg: "#E6DEDD",
     date: "October 2023 - Present",
     points: [
-      "Working as a werkstudent in Software Development at the E&V.",
-      "Contributing to one of the biggest project named LeadHub which manages the whole customer database.",
-      "Writing E2E tests, and fixing bug tickets.",
-      "I currently work here, also improving my professional networks."],
+      "Leadhub Platform Enhancement: Resolve bug tickets and conduct end-to-end testing for E&V's Leadhub platform, optimizing its performance in lead generation, validation, tech automation, etc...",
+
+      "Active Meeting Participation: Attend daily meetings, fostering effective communication within the development team and contributing insights to ongoing sprints.",
+      
+      "Quality Assurance Expertise: Write end-to-end tests to ensure software reliability, contributing to overall quality assurance processes and enhancing user experience.",
+      
+      "Professional Development: Actively improve social networks, showcasing a commitment to continuous professional development and expanding industry connections.",
+    "Technologies used: TypeScript, React, Material-UI, Playwright testing, figma, Jira, GraphQL, Twilio, Hasura and so on.."],
   },
 ];
 
