@@ -202,11 +202,11 @@ const experiences = [
     iconBg: "#E6DEDD",
     date: "October 2024 - Present",
     points: [
-      "Delivered interactive Python lectures by incorporating hands-on coding exercises and real-world examples to engage and enhance student learning.",
-"Mentored a diverse cohort of students, providing one-on-one guidance, answering technical questions, and supporting problem-solving in Python programming.",
-"Created structured lesson plans covering Python fundamentals, data types, loops, functions, and object-oriented programming, ensuring clarity and knowledge retention.",
-"Utilized advanced communication and presentation skills to simplify complex Python concepts, fostering an inclusive and interactive classroom environment.",
-"Designed quizzes, coding challenges, and live demonstrations to assess student progress and encourage active participation, making learning dynamic and collaborative"
+      "Delivering interactive Python lectures by incorporating hands-on coding exercises and real-world examples to engage and enhance student learning.",
+"Mentoring a diverse cohort of students, providing one-on-one guidance, answering technical questions, and supporting problem-solving in Python programming.",
+"Creating structured lesson plans covering Python fundamentals, data types, loops, functions, and object-oriented programming, ensuring clarity and knowledge retention.",
+"Utilizimg advanced communication and presentation skills to simplify complex Python concepts, fostering an inclusive and interactive classroom environment.",
+"Designing quizzes, coding challenges, and live demonstrations to assess student progress and encourage active participation, making learning dynamic and collaborative"
   ]  },
 ];
 
