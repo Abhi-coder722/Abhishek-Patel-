@@ -195,7 +195,19 @@ const experiences = [
       
       "Professional Development: Actively improve social networks, showcasing a commitment to continuous professional development and expanding industry connections.",
     "Technologies used: TypeScript, React, Material-UI, Playwright testing, figma, Jira, GraphQL, Twilio, Hasura and so on.."],
-  },
+  },{
+    title: "Python Tutor",
+    company_name: "Technsche Hochschule Ingolstadt",
+    icon: thi,
+    iconBg: "#E6DEDD",
+    date: "October 2024 - Present",
+    points: [
+      "Delivered interactive Python lectures by incorporating hands-on coding exercises and real-world examples to engage and enhance student learning.",
+"Mentored a diverse cohort of students, providing one-on-one guidance, answering technical questions, and supporting problem-solving in Python programming.",
+"Created structured lesson plans covering Python fundamentals, data types, loops, functions, and object-oriented programming, ensuring clarity and knowledge retention.",
+"Utilized advanced communication and presentation skills to simplify complex Python concepts, fostering an inclusive and interactive classroom environment.",
+"Designed quizzes, coding challenges, and live demonstrations to assess student progress and encourage active participation, making learning dynamic and collaborative"
+  ]  },
 ];
 
 const testimonials = [
