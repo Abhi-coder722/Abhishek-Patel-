@@ -66,8 +66,9 @@ const ComputersCanvas = () => {
         maxPolarAngle={Math.PI / 2}
         minPolarAngle={Math.PI / 2}
       />
+     { !isMobile &&
         <Computers  isMobile={isMobile}/>
-
+      }
       </Suspense>
       <Preload all />
     </Canvas>

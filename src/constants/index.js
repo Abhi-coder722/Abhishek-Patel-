@@ -179,7 +179,18 @@ const experiences = [
       "To enhance my communication skills, I have been attending German courses at the B1 level. ",
       "-'Ich bin nicht der Beste, aber ich bin besser als gestern.'"
     ],
-  },
+  },{
+  title: "Python Tutor",
+  company_name: "Technsche Hochschule Ingolstadt",
+  icon: thi,
+  iconBg: "#E6DEDD",
+  date: "October 2024 - February 2025",
+  points: [
+    "Delivering interactive Python lectures by incorporating hands-on coding exercises and real-world examples to engage and enhance student learning.",
+"Mentoring a diverse cohort of students, providing one-on-one guidance, answering technical questions, and supporting problem-solving in Python programming.",
+"Utilizimg advanced communication and presentation skills to simplify complex Python concepts, fostering an inclusive and interactive classroom environment.",
+"Designing live demonstrations to assess student progress and encourage active participation, making learning dynamic and collaborative"
+]  },
   {
     title: "Working student Software Development",
     company_name: "Engel & Völkers, Hamburg",
@@ -195,19 +206,7 @@ const experiences = [
       
       "Professional Development: Actively improve social networks, showcasing a commitment to continuous professional development and expanding industry connections.",
     "Technologies used: TypeScript, React, Material-UI, Playwright testing, figma, Jira, GraphQL, Twilio, Hasura and so on.."],
-  },{
-    title: "Python Tutor",
-    company_name: "Technsche Hochschule Ingolstadt",
-    icon: thi,
-    iconBg: "#E6DEDD",
-    date: "October 2024 - Present",
-    points: [
-      "Delivering interactive Python lectures by incorporating hands-on coding exercises and real-world examples to engage and enhance student learning.",
-"Mentoring a diverse cohort of students, providing one-on-one guidance, answering technical questions, and supporting problem-solving in Python programming.",
-"Creating structured lesson plans covering Python fundamentals, data types, loops, functions, and object-oriented programming, ensuring clarity and knowledge retention.",
-"Utilizimg advanced communication and presentation skills to simplify complex Python concepts, fostering an inclusive and interactive classroom environment.",
-"Designing quizzes, coding challenges, and live demonstrations to assess student progress and encourage active participation, making learning dynamic and collaborative"
-  ]  },
+  },
 ];
 
 const testimonials = [
